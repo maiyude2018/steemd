@@ -35,16 +35,10 @@
             <router-link to="/explorer" class="nav-item nav-link"><div class="extra-padding">Explorer</div></router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/map" class="nav-item nav-link"><div class="extra-padding">Map</div></router-link>
-          </li>
-          <li class="nav-item">
             <router-link to="/witnesses" class="nav-item nav-link"><div class="extra-padding">Witnesses</div></router-link>
           </li>
           <li class="nav-item">
             <router-link to="/broadcast" class="nav-item nav-link"><div class="extra-padding">Broadcast</div></router-link>
-          </li>
-          <li class="nav-item">
-            <router-link to="/reports" class="nav-item nav-link"><div class="extra-padding">Reports</div></router-link>
           </li>
           <li class="nav-item">
             <router-link to="/proposals" class="nav-item nav-link"><div class="extra-padding">Proposals</div></router-link>

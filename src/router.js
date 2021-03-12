@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
-import MapPage from '@/components/MapPage'
+//import MapPage from '@/components/MapPage'
 import Password from '@/components/Password'
 import Witnesses from '@/components/Witnesses'
 import Page404 from '@/components/Page404'
@@ -40,11 +40,6 @@ export default new Router({
       component: HomeExplorer
     },
     {
-      path: "/map",
-      name: "MapPage",
-      component: MapPage
-    },
-    {
       path: "/password",
       name: "Password",
       component: Password
@@ -73,11 +68,6 @@ export default new Router({
       path: "/proposals/:id",
       name: "Proposal",
       component: () => import('./views/ProposalPage.vue')
-    },
-    {
-      path: "/reports",
-      name: "Reports",
-      component: () => import('./views/ReportsPage.vue')
     },
     {
       path: "/explorer",
